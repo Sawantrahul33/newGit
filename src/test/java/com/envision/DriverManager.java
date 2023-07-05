@@ -14,9 +14,9 @@ public class DriverManager {
             case "Chrome" :
                 System.setProperty("webdriver.chrome.driver", "C:\\Users\\canada\\IdeaProjects\\ApIProject\\src\\test\\resources\\binaries\\chromedriver.exe");
                 ChromeOptions co=new ChromeOptions();
-                co.addArguments("started-maximize");
-                co.
-                driver = new ChromeDriver(co);
+
+
+                driver = new ChromeDriver(co.addArguments("started-maximize"));
                 break;
             case "edge":
                 System.setProperty("webdriver.chrome.driver","C:\\Users\\canada\\IdeaProjects\\Practice\\src\\test\\resources\\binaries\\msedgedriver.exe");

@@ -40,7 +40,7 @@ public void part1() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver","C:\\Users\\canada\\IdeaProjects\\Practice\\src\\test\\resources\\binaries\\chromedriver.exe");
         ChromeOptions co=new ChromeOptions();
        // driver = new ChromeDriver(co.addArguments("headless"));
-        driver = new ChromeDriver(co.addArguments("start-maximized"));
+        driver = new ChromeDriver();
         driver.navigate().to(URL1);
        // driver.switchTo().frame(2);
         driver.switchTo().frame("iframeResult");
