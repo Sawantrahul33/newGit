@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Regression Suits" verbose="2" preserve-order="true">
+    <test name="Login Test">
+        <classes>
+            <class name="com.envision.OrangeCRMLoginTestCase">
+                <methods>
+                    <include name="positiveLoginCase"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

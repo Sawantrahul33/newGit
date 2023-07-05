@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Suits" duration-ms="30833" started-at="2023-04-30T18:50:03 MDT" finished-at="2023-04-30T18:50:34 MDT">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="30833" started-at="2023-04-30T18:50:03 MDT" finished-at="2023-04-30T18:50:34 MDT">
+      <class name="com.envision.OrangeCRMLoginTestCase">
+        <test-method status="PASS" signature="doSomething()[pri:0, instance:com.envision.OrangeCRMLoginTestCase@1a1d6a08]" name="doSomething" is-config="true" duration-ms="24494" started-at="2023-04-30T18:50:04 MDT" finished-at="2023-04-30T18:50:28 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSomething -->
+        <test-method status="PASS" signature="positiveLoginCase()[pri:0, instance:com.envision.OrangeCRMLoginTestCase@1a1d6a08]" name="positiveLoginCase" duration-ms="5741" started-at="2023-04-30T18:50:28 MDT" finished-at="2023-04-30T18:50:34 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLoginCase -->
+        <test-method status="PASS" signature="doSomethingAfter()[pri:0, instance:com.envision.OrangeCRMLoginTestCase@1a1d6a08]" name="doSomethingAfter" is-config="true" duration-ms="524" started-at="2023-04-30T18:50:34 MDT" finished-at="2023-04-30T18:50:34 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSomethingAfter -->
+      </class> <!-- com.envision.OrangeCRMLoginTestCase -->
+    </test> <!-- Login Test -->
+  </suite> <!-- Regression Suits -->
+</testng-results>
